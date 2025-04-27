@@ -2,3 +2,13 @@ html {
     font-family: "Montserrat";
     font-size: 16px;
 }
+body {
+    margin: 0;
+}
+.First-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 67.6rem;
+    height: 89.9rem;
+}
