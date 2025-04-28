@@ -12,7 +12,7 @@ body {
     width: 67.6rem;
     height: 89.9rem;
 }
-.backgrond-green {
+.Background-green {
     background-color: #02A28F;
     color: #FFFFFF;
 }
@@ -36,4 +36,13 @@ body {
     justify-content: space-between;
     margin-left: 9.6rem;
     margin-right: 0.75rem;
+}
+#City1 {
+    width: 44.25rem;
+    height: 23.8rem;
+    margin-left: 0;
+    margin-top: 2.3rem;
+    padding: 1.5rem 1.5rem 1.5rem 0.93rem;
+    border-radius: 0.6rem;
+    gap: 0.6rem;
 }
