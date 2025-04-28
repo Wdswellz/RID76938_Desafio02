@@ -195,4 +195,16 @@ body {
     height: 18.7rem;
     display: grid;
 }
+.Post {
+    width: 25.6rem;
+    height: 5.56rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: #FFFFFF;
+    border-radius: 0.6rem;
+    box-shadow: 0 0.62rem 0.62rem 0 #0000001A;
+}
 
