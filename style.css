@@ -63,3 +63,15 @@ body {
     padding: 1rem 1.3rem 1rem 1.5rem;
     border-radius: 0.5rem;
 }
+#invisible {
+    width: 5rem;
+    height: 1.25rem;
+    background-color: #02A28F;
+    text-align: right;
+    text-decoration: underline;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    box-shadow: #02A28F;
+    border: 0;
+}
