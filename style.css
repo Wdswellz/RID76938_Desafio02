@@ -164,3 +164,15 @@ body {
     line-height: 100%;
     color: #616161;
 }
+.Second-container {
+    width: 25.6rem;
+    height: 85.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.75rem;
+    margin-left: 0.75rem;
+}
+#Grid-recents {
+    width: 25.6rem;
+    height: 18.7rem;
+}
