@@ -46,3 +46,21 @@ body {
     border-radius: 0.6rem;
     gap: 0.6rem;
 }
+#Post-list {
+    width: 45.18rem;
+    height: 55rem;
+    margin: 1.5rem 1.5rem 4rem 0;
+}
+#Post-title {
+    width: 41.4rem;
+    height: 2.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 0 1.5rem 0.68rem 1rem;
+    padding: 1rem 1.3rem 1rem 1.5rem;
+    border-radius: 0.5rem;
+
+}
