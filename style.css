@@ -265,3 +265,28 @@ body {
     align-items: center;
     padding-top: 0.75rem;
 }
+.Option {
+    width: 4.43rem;
+    height: 1.25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #616161;
+}
+.Number {
+    width: 1.32rem;
+    height: 1.25rem;
+    justify-content: space-between;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #616161;
+}
