@@ -79,7 +79,14 @@ body {
     width: 21.56rem;
     height: 25rem;
     display: block;
+    border: #FFFFFF;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     box-shadow: 0 0.6rem 1.25rem 0 #0000001A;    
+}
+.Grid-left {
+    margin: 0 0.75rem 0 0;
+}
+.Grid-right {
+    margin: 0 0 0 0.75rem;
 }
