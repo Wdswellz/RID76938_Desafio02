@@ -256,3 +256,12 @@ body {
     font-weight: 700;
     gap: 0.62rem;
 }
+.Types {
+    width: 25.6rem;
+    height: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.75rem;
+}
