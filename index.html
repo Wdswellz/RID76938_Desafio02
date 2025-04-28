@@ -12,33 +12,34 @@
 <!--Título da página-->
 <main>
     <h1 id="Blog-title" class="Background-green">The Dev News</h1>
-   <body>
+    <body>
         <section class="First-section">
-<!--Primeiro GRID--> 
+<!--Primeiro GRID-->
             <section class="Container">
-                <img src="./images/banner-article.png" alt="">
-<!--Posts Recentes-->                
-                <div id="Post-list">s
-                    <h2 id="Posts-title">Posts mais recentes<button>Ver todos</button></h2>
-<!--Grid Post-->                    
+                <img id="City1" src="./Images/banner-article.png" alt="">    
+                <img id="City2" src="./Images/bannerarticle2.png" alt="">
+<!--Posts Recentes-->
+                <div id="Posts-lists">
+                    <h2 id="Post-title" class="Background-green">Posts mais recentes<button id="Invisible">Ver todos</button></h2>
+<!-- Grid Posts-->
                     <div id="Grid-post">
-<!--Primeiro Post-->
+<!--Primeiro Post-->            
                         <article class="Grid-item Grid-left">
-                        <img class="Photo" src="./Images/banner-image1.png" alt="">
-                        <header class="Text-post">
-                            <p class="Theme"><b>desenvolvimento</b></p>
-                            <h2><b>Desenvolvimento Mobile</b></h2>
-                            <p class="Author"><b>By</b> Fabio Tetsuo</p>
-                            <p class="Argument">
-                                Lorem ipsum dolor sit amet consectetur. In <br>
-                                vitae urna commodo amet congue integer <br>
-                                dapibus. Interdum semper mauris convallis <br>
-                                fusce enim odio. Vitae montes ridiculus felis. <br>
-                            </p>
-                            <p class="Date">22 Agosto 2022</p>
-                        </header>
+                            <img class="Photo" src="./Images/banner-image1.png" alt="">
+                            <header class="Text-post">
+                                <p class="Theme"><b>desenvolvimento</b></p>
+                                <h2><b>Desenvolvimento Mobile</b></h2>
+                                <p class="Author"><b>By</b> Fabio Tetsuo</p>
+                                <p class="Argument">
+                                    Lorem ipsum dolor sit amet consectetur. In <br>
+                                    vitae urna commodo amet congue integer <br>
+                                    dapibus. Interdum semper mauris convallis <br>
+                                    fusce enim odio. Vitae montes ridiculus felis. <br>
+                                </p>
+                                <p class="Date">22 Agosto 2022</p>
+                            </header>
                         </article>
-<!--Segundo Post-->
+<!--Segundo Post-->            
                         <article class="Grid-item Grid-right">
                             <img class="Photo" src="./Images/banner-image2.png" alt="">
                             <header class="Text-post" style="padding-left: 1rem; width: 18.6rem; padding-right: 1rem;">
@@ -53,8 +54,7 @@
                                 <p class="Date" style=" margin-bottom: 0; margin-top: 0; padding-top: 0.25rem;">22 Agosto 2022</p>
                             </header>
                         </article>
-
-<!--Terceiro Post-->    
+<!--Terceiro Post-->                    
                         <article class="Grid-item Grid-left">
                             <img class="Photo" src="./Images/banner-image3.png" alt="">
                             <header class="Text-post">
@@ -71,7 +71,7 @@
                                 <p class="Date">22 Agosto 2022</p>
                             </header>                
                         </article>
-<!--Quarto Post-->                
+<!--Quarto Post-->                    
                         <article class="Grid-item Grid-right" style="margin-bottom: 3.1rem;">
                             <img class="Photo" src="./Images/banner-image4.png" alt="">
                             <header class="Text-post">
@@ -88,53 +88,55 @@
                                 <p class="Date">22 Agosto 2022</p>
                             </header>
                         </article>
-                    </div>
+                    </div>   
                 </div>
             </section>
-<!--Segundo GRID-->            
+<!--Segundo GRID-->
             <section class="Second-container">
+<!--Posts mais acessados-->        
                 <div id="Grid-recents">
                     <h2 id="Principal-posts" class="Background-green">Posts Populares</h2>
-                    <div id="Principal"></div>   
+                    <div id="Principal">
 <!--Primeiro Tema-->
-                    <article class="Post">
-                        <img src="./images/worker.png" alt="">
-                        <header class="Text">
-                            <h3>Desenvolvimento atual</h3>
-                            <p>22 de Agosto 2022</p>
-                        </header>
-                    </article>
-<!--Segundo tema-->
-                    <article class="Post">
-                        <img src="./images/gitlab.png" alt="">
-                        <header class="Text">
-                            <h3>GitLab vs GitHub</h3>
-                            <p>22 Agosto 2022</p>
-                        </header>
-                    </article>
-<!--Terceiro tema-->
-                    <article class="Post"> 
-                        <img src="./images/coffe.png" alt="">
-                        <header class="Text">
-                            <h3>Café atrapalha?</h3>
-                            <p>22 Agosto 2022</p>
-                        </header>
-                    </article>                                
+                        <article class="Post">
+                            <img src="./Images/worker.png" alt="">
+                            <header class="Text">
+                                 <h3>Desenvolvimento atual</h3>
+                                <p>22 Agosto 2022</p>
+                            </header>
+                        </article>
+<!--Segundo Tema-->
+                        <article class="Post">
+                            <img src="./Images/gitlab.png" alt="">
+                            <header class="Text">
+                                <h3>GitLab vc GitHub</h3>
+                                <p>22 Agosto 2022</p>
+                            </header>
+                        </article>
+<!--Terceiro Tema-->
+                        <article class="Post">
+                            <img src="./Images/coffe.png" alt="">
+                            <header class="Text">
+                                <h3>Café atrapalha?</h3>
+                                <p>22 Agosto 2022</p>
+                            </header>    
+                        </article>
+                    </div>
                 </div>
- <!--Categorias-->
+<!--Categorias-->
                 <div id="Categories">
-                    <h2 id="categori" class="Backgorund-green">Categorias</h2>
-                    <header class="Option"><p>>saude</p><p class="number">(1)</p></header>
-                    <header class="Option"><p>>desenvolvimento</p><p class="number">(2)</p></header>
-                    <header class="Option"><p>>produtividade</p><p class="number">(2)</p></header>
-                    <header class="Option"><p>>opiniao</p><p></p class="number">(1)</header>
-                </div>                   
+                    <h2  id="Ktegori" class="Background-green" style="margin-left: 0;">Ktegori</h2>
+                    <h2 id="Categori" class="Background-green">Categorias</h2>
+                    <header class="Types"><p class="Option">>saude</p><p class="Number">(1)</p></header>
+                    <header class="Types"><p class="Option">>desenvolvimento</p><p class="Number">(2)</p> </header>
+                    <header class="Types"><p class="Option">>produtividade</p><p class="Number">(2)</p> </header>
+                    <header class="Types"><p class="Option">>opiniao</p><p class="Number">(1)</p></header>  
+                </div>       
             </section>
-<!--Rodapé-->
-            <footer id="Footer-pc">Copyright@The Dev News</footer>            
+            <footer id="Footer-mobile" class="background-green"><p>Copyright@The Dev News</p></footer>
         </section>
-    
-    </body> 
+<!--Rodapé-->
+        <footer id="Footer-pc" class="Background-green"><p>Copyright@The Dev News</p></footer>
+    </body>
 </main>
-
 </html>
