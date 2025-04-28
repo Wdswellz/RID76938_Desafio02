@@ -75,3 +75,11 @@ body {
     box-shadow: #02A28F;
     border: 0;
 }
+.Grid-item {
+    width: 21.56rem;
+    height: 25rem;
+    display: block;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    box-shadow: 0 0.6rem 1.25rem 0 #0000001A;    
+}
