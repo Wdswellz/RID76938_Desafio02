@@ -174,5 +174,10 @@ body {
 }
 #Grid-recents {
     width: 25.6rem;
+    height: 23.9rem;
+}
+#Principal {
+    width: 25.6rem;
     height: 18.7rem;
+    display: grid;
 }
