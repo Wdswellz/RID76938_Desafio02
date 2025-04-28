@@ -1,8 +1,8 @@
 html {
     font-family: "Montserrat";
     font-size: 16px;
-}
-body {
+} 
+body { 
     margin: 0;
 }
 .First-section {
@@ -12,28 +12,30 @@ body {
     width: 67.6rem;
     height: 89.9rem;
 }
+
 .Background-green {
     background-color: #02A28F;
     color: #FFFFFF;
 }
-#Blog-title {
+#Blog-title{
     width: 90rem;
     height: 3rem;
     margin: 0;
     padding: 1rem 9.7rem 1rem 10.5rem;
+
 }
 #Blog-title > h1 {
-    font-size: 2.2rem;
     font-weight: 700;
+    font-size: 2.2rem;
     line-height: 100%;
-    letter-spacing: 0;
+    letter-spacing: 0%;
     gap: 0.6rem;
 }
 .Container {
     width: 46.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:space-between;
     margin-left: 9.6rem;
     margin-right: 0.75rem;
 }
@@ -45,44 +47,40 @@ body {
     padding: 1.5rem 1.5rem 1.5rem 0.93rem;
     border-radius: 0.6rem;
     gap: 0.6rem;
+
 }
-#Post-list {
+#City2{
+    width: 0;
+    height: 0;
+}
+#Post-lists {
     width: 45.18rem;
     height: 55rem;
     margin: 1.5rem 1.5rem 4rem 0;
 }
 #Post-title {
-    width: 41.4rem;
-    height: 2.3rem;
     display: flex;
     flex-direction: row;
+    width: 41.4rem;
+    height: 2.3rem;
     justify-content: space-between;
-    text-align: center;
-    align-items: center;
+    border-radius: 0.5rem;
     margin: 0 1.5rem 0.68rem 1rem;
     padding: 1rem 1.3rem 1rem 1.5rem;
-    border-radius: 0.5rem;
+    text-align: center;
+    align-items: center;
 }
-#invisible {
+#Invisible {
     width: 5rem;
     height: 1.25rem;
-    background-color: #02A28F;
-    text-align: right;
-    text-decoration: underline;
     font-size: 0.8rem;
     font-weight: 500;
     color: #FFFFFF;
+    text-decoration: underline;
+    background-color: #02A28F;
     box-shadow: #02A28F;
     border: 0;
-}
-.Grid-item {
-    width: 21.56rem;
-    height: 25rem;
-    display: block;
-    border: #FFFFFF;
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    box-shadow: 0 0.6rem 1.25rem 0 #0000001A;    
+    text-align: right;
 }
 .Grid-left {
     margin: 0 0.75rem 0 0;
@@ -90,85 +88,95 @@ body {
 .Grid-right {
     margin: 0 0 0 0.75rem;
 }
+.Grid-item {
+    display: block;
+    width: 21.56rem;
+    height: 25rem;
+    border: #FFFFFF;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    box-shadow: 0 0.6rem 1.25rem 0 #0000001A;
+}
 #Grid-post {
-    width: 44.3rem;
-    height: 55.6rem;
     display: grid;
     grid-template-columns: 21.8rem 1fr;
     justify-content: space-between;
+    width: 44.3rem;
+    height: 55.6rem;
     margin-left: 1rem;
 }
 .Photo {
-    width: 21.56rem;
+    width: 21.56rem; 
     height: 11.9rem;
 }
-.Text-post {
+.Text-post {  
     width: 20.1rem;
     height: 11.3rem;
     padding: 0.56rem 1rem 0.56rem 1rem;
-    gap: 0.5rem;    
+    gap: 0.5rem;
 }
-.Theme {
+.Theme { 
     width: 7.5rem;
-    height: 1.06rem;
-    font-size: 0.75rem;
+    height: 1.06rem;  
     font-weight: 200;
-    letter-spacing: 0;
+    font-size: 0.75rem;
     line-height: 100%;
+    letter-spacing: 0%;
     color: #02A28F;
 }
 .Text-post > h2 {
     width: 20rem;
     height: 1.06rem;
-    font-size: 1.25rem;
     font-weight: 400;
-    letter-spacing: 0;
+    font-size: 1.25rem;
     line-height: 100%;
+    letter-spacing: 0%;
     color: #000000;
 }
 .Author {
     width: 8.75rem;
     height: 0.9rem;
-    font-size: 0.8rem;
     font-weight: 200;
-    letter-spacing: 0;
-    line-height: 100%;
+    font-size: 0.8rem;
+    line-height: 100%;                                         
+    letter-spacing: 0%;
     color: #616161;
 }
 .Author > b {
-    font-size: 0.8rem;
     font-weight: 700;
-    letter-spacing: 0;
+    font-size: 0.8rem;
     line-height: 100%;
+    letter-spacing: 0%;
     color: #616161;
 }
 .Argument {
     width: 20.5rem;
     height: 3.8rem;
-    text-align: left;
-    font-size: 0.75rem;
+    margin-bottom: 0;
     font-weight: 400;
-    letter-spacing: 0;
+    font-size: 0.75rem;
     line-height: 100%;
+    letter-spacing: 0%;
     color: #000000;
+    text-align: left;
 }
 .Date {
     width: 6.75rem;
     height: 1.06rem;
     margin-top: 0;
     margin-bottom: 0;
-    text-align: left;
-    font-size: 0.8rem;
     font-weight: 500;
-    letter-spacing: 0;
+    font-size: 0.8rem;
     line-height: 100%;
+    letter-spacing: 0%;
     color: #616161;
+    text-align: left;
 }
 .Second-container {
-    width: 25.6rem;
-    height: 85.5rem;
     display: flex;
     flex-direction: column;
+    width: 25.6rem;
+    height: 85.5rem;
     margin-top: 3.75rem;
     margin-left: 0.75rem;
 }
@@ -176,36 +184,36 @@ body {
     width: 25.6rem;
     height: 23.9rem;
 }
+#Principal {
+    display: grid;
+    width: 25.6rem;
+    height: 18.7rem;
+}
 #Principal-posts {
-    width: 20rem;
-    height: 2.5rem;
     display: grid;
     justify-content:left;
-    align-content: center;
+    width: 20rem;
+    height: 2.5rem;
     margin: 0;
-    padding: 0.75rem 4rem 0.75rem 1.5rem;
     font-size: 1.25rem;
+    align-content: center;
+    padding: 0.75rem 4rem 0.75rem 1.5rem;
     border: #FFFFFF;
     border-radius: 0.6rem;
     box-shadow: 0 0.6rem 0.6rem 0 #0000001A;
     gap: 0.6rem;
 }
-#Principal {
-    width: 25.6rem;
-    height: 18.7rem;
-    display: grid;
-}
 .Post {
-    width: 25.6rem;
-    height: 5.56rem;
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 25.6rem;
+    height: 5.56rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     border: #FFFFFF;
-    border-radius: 0.6rem;
     box-shadow: 0 0.62rem 0.62rem 0 #0000001A;
+    border-radius: 0.6rem;
 }
 .Post > img {
     width: 8.1rem;
@@ -220,8 +228,8 @@ body {
 .Text > h3 {
     width: 10.7rem;
     height: 0.3rem;
-    font-size: 0.87rem;
     font-weight: 700;
+    font-size: 0.87rem;
     line-height: 100%;
     letter-spacing: 0;  
     color: #000000;   
@@ -229,31 +237,39 @@ body {
 .Text > p {
     width: 5.75rem;
     height: 0.9rem;
-    margin-bottom: 2.37rem;
-    padding-top: 0.5rem;
-    font-size: 0.75rem;
     font-weight: 500;
+    font-size: 0.75rem;
+    padding-top: 0.5rem;
+    margin-bottom: 2.37rem;
     line-height: 100%;
     letter-spacing: 0;
     color: #616161;
 }
 #Categories {
+    flex-direction: column;
     width: 25.6rem;
     height: 12.9rem;
-    flex-direction: column;
     margin-top: 0.68rem;
     margin-bottom: 0.375rem;
     border-radius: 0.6rem;
     gap: 0.8rem;
 }
+#Ktegori {
+    width: 0;
+    height: 0;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
 #Categori {
     width: 22.7rem;
     height: 40px;
-    align-content: center;
-    margin-bottom: 0.5rem;
-    padding: 12px 24px 8px 24px;
     font-size: 1.25rem;
     font-weight: 700;
+    align-content: center;
+    border-radius: 0.62rem;
+    margin-bottom: 0.5rem;
+    padding: 12px 24px 8px 24px;
     gap: 0.62rem;
 }
 .Types {
@@ -263,41 +279,48 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 0.75rem;
+    padding-top: 0.75rem;   
 }
 .Option {
     width: 4.43rem;
     height: 1.25rem;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-    font-size: 1rem;
     font-weight: 600;
+    font-size: 1rem;
     line-height: 100%;
     letter-spacing: 0%;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
     color: #616161;
 }
 .Number {
     width: 1.32rem;
     height: 1.25rem;
     justify-content: space-between;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 100%;
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 100%;
     letter-spacing: 0%;
     color: #616161;
 }
+#Footer-mobile{
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
 #Footer-pc {
     width: 90rem;
     height: 3rem;
+    font-weight: 600;
+    font-size: 0.87rem;
+    line-height: 100%;
+    letter-spacing: 0%;
     text-align: center;
     margin-top: 4rem;
     padding: 1.06rem 12.5rem 1.06rem 12.5rem;
-    font-size: 0.87rem;
-    font-weight: 600;
-    line-height: 100%;
-    letter-spacing: 0%;
 }
